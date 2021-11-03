@@ -19,7 +19,7 @@ const Card = ({card_type, img, color, data, currentState }) => {
         <div className="card-content" >
           <div className="card-label">
             <p>{ card_type }</p>
-            <img src="images/icon-ellipsis.svg" alt=""/>
+            <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path class="icon" d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
           </div>
           <div className="card-info">
             <h2>{ hrs }hrs</h2>

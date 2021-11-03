@@ -62,7 +62,7 @@ p {
 }
 
 .main-card-bottom {
-  margin: 1.1rem 1rem;
+  margin: 1rem 1rem;
 }
 
 .main-card-bottom p {
@@ -92,6 +92,10 @@ p {
   color: white;
   font-weight: 500;
 }
+.icon:hover{
+  fill: #FFFFFF;
+}
+
 
 .card-top {
   background-color: #ff8c66;
@@ -141,6 +145,7 @@ p {
 
 @media screen and (max-width: 730px) {
   .App {
+    margin-top: 5rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
